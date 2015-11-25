@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77A87869-4C28-4F83-87B1-2A03AF82285A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DFC2D21-021C-4939-A688-68BDF48A7894}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		build.sh = build.sh
+		global.json = global.json
+		LICENSE = LICENSE
+		makefile.shade = makefile.shade
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PipeCI.Blob", "\\Mac\Home\项目\BlobStorage\src\PipeCI.Blob\PipeCI.Blob.xproj", "{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9DBF41C0-24DC-4FB0-9945-B4B2568AEC19}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PipeCI.Blob.Sample", "samples\PipeCI.Blob.Sample\PipeCI.Blob.Sample.xproj", "{03385F69-E982-4B9A-81F5-4B5809062B72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{006BBE4D-F9F2-4E15-B42E-FC747F59E15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03385F69-E982-4B9A-81F5-4B5809062B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03385F69-E982-4B9A-81F5-4B5809062B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03385F69-E982-4B9A-81F5-4B5809062B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03385F69-E982-4B9A-81F5-4B5809062B72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5} = {77A87869-4C28-4F83-87B1-2A03AF82285A}
+		{03385F69-E982-4B9A-81F5-4B5809062B72} = {9DBF41C0-24DC-4FB0-9945-B4B2568AEC19}
+	EndGlobalSection
+EndGlobal
