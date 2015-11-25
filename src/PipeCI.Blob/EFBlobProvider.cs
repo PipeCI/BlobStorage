@@ -11,7 +11,6 @@ namespace Microsoft.Extensions.DependencyInjection
             where TContext : DbContext, IBlobDbContext
         {
             self.Services.AddScoped<IBlobProvider, EFBlobProvider<TContext>>();
-            self.Services.AddScoped<IUploadAuthorizationProvider, AnymouseUploadAuthorizationProvider>();
             return self;
         }
     }

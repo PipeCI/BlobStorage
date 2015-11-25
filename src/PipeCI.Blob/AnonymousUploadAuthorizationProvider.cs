@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PipeCI.Blob
 {
-    public class AnymouseUploadAuthorizationProvider : IUploadAuthorizationProvider
+    public class AnonymousUploadAuthorizationProvider : IUploadAuthorizationProvider
     {
         public bool IsAbleToUpload()
         {

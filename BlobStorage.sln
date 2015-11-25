@@ -27,6 +27,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PipeCI.Blob.Sample", "sampl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{006BBE4D-F9F2-4E15-B42E-FC747F59E15E}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PipeCI.Blob.Tests", "test\PipeCI.Blob.Tests\PipeCI.Blob.Tests.xproj", "{BDC33C7D-9A72-4950-9479-BB5ADC9D4566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{03385F69-E982-4B9A-81F5-4B5809062B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03385F69-E982-4B9A-81F5-4B5809062B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03385F69-E982-4B9A-81F5-4B5809062B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC33C7D-9A72-4950-9479-BB5ADC9D4566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC33C7D-9A72-4950-9479-BB5ADC9D4566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC33C7D-9A72-4950-9479-BB5ADC9D4566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC33C7D-9A72-4950-9479-BB5ADC9D4566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BFCC9D51-C5ED-4114-A6C3-9F878237CCD5} = {77A87869-4C28-4F83-87B1-2A03AF82285A}
 		{03385F69-E982-4B9A-81F5-4B5809062B72} = {9DBF41C0-24DC-4FB0-9945-B4B2568AEC19}
+		{BDC33C7D-9A72-4950-9479-BB5ADC9D4566} = {006BBE4D-F9F2-4E15-B42E-FC747F59E15E}
 	EndGlobalSection
 EndGlobal

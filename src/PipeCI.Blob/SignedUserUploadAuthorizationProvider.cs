@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Http;
+﻿using System.Linq;
+using Microsoft.AspNet.Http;
 using PipeCI.Blob;
 
 namespace PipeCI.Blob
@@ -14,7 +15,7 @@ namespace PipeCI.Blob
 
         public bool IsAbleToUpload()
         {
-            if (httpContext.User.Identity.IsAuthenticated)
+            if (httpContext.User.Identities.Count() > 0)
                 return true;
             else
                 return false;
