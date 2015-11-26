@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
+using System.Text;
 using Microsoft.AspNet.Http;
 using Microsoft.AspNet.Routing;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,7 +27,33 @@ namespace Microsoft.AspNet.Builder
                 {
                     context.HttpContext.Response.ContentType = blob.ContentType;
                     context.HttpContext.Response.ContentLength = blob.ContentLength;
-                    context.HttpContext.Response.Headers["Content-disposition"] = $"attachment; filename={WebUtility.UrlEncode(blob.FileName)}";
+                    const int maxLength = 32766;
+                    string filename = string.Empty;
+                    var input = blob.FileName;
+        			if (input == null)
+        		    {
+                        context.HttpContext.Response.StatusCode = 404;
+                        await context.HttpContext.Response.WriteAsync("Not Found");
+                    }
+        
+        			if (input.Length <= maxLength)
+                    {
+        				filename = WebUtility.UrlEncode(input);
+                    }
+                    else
+                    {
+            			StringBuilder sb = new StringBuilder(input.Length * 2);
+            			int index = 0;
+            			while (index < input.Length)
+            			{
+            				int length = Math.Min(input.Length - index, maxLength);
+            				string subString = input.Substring(index, length);
+            				sb.Append(WebUtility.UrlEncode(subString));
+            				index += subString.Length;
+            			}
+                        filename = sb.ToString();
+                    }
+                    context.HttpContext.Response.Headers["Content-disposition"] = $"attachment; filename={filename}";
                     context.HttpContext.Response.Body.Write(blob.File, 0, blob.File.Length);
                 }
             });
