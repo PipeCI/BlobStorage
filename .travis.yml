@@ -3,7 +3,7 @@ sudo: true
 mono:
   - beta
 env:
-  - MONO_THREADS_PER_CPU=2000 MONO_MANAGED_WATCHER=disabled
+  - MONO_THREADS_PER_CPU=2000 MONO_MANAGED_WATCHER=false
 os:
   - linux
   - osx
