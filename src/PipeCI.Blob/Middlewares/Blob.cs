@@ -13,7 +13,7 @@ namespace Microsoft.AspNet.Builder
     {
         public static IApplicationBuilder UseBlob(this IApplicationBuilder self)
         {
-            var endpoint = new DelegateRouteEndpoint(async (context) => {
+            var endpoint = new DelegateRouteEndpoint(async context => {
                 var bs = context.HttpContext.RequestServices.GetRequiredService<IBlobProvider>();
                 var id = Guid.Parse(context.RouteData.Values["id"].ToString());
                 var blob = bs.Get(id);
