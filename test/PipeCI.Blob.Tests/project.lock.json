@@ -23,47 +23,6 @@
           "lib/net451/CodeComb.AspNet.Extensions.dll": {}
         }
       },
-      "CodeComb.Testing/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Formatters.Xml": "6.0.0-rc1-final",
-          "Microsoft.AspNet.TestHost": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml",
-          "System.Xml.Linq"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        }
-      },
-      "CodeComb.Testing.Mvc/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "CodeComb.Testing": "2.0.0-rc1-final",
-          "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
-          "Moq": "4.2.1507.118"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -376,38 +335,6 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.AspNet.Hosting/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Server.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.CommandLine": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        }
-      },
       "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -425,25 +352,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Hosting.Server.Abstractions/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Features": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNet.Html.Abstractions/1.0.0-rc1-final": {
@@ -767,26 +675,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.Formatters.Xml/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime.Serialization",
-          "System.Xml"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -969,25 +857,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Routing.dll": {}
-        }
-      },
-      "Microsoft.AspNet.TestHost/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Hosting": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -1227,42 +1096,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Extensions.Configuration.Binder.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.CommandLine/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
@@ -1907,47 +1740,6 @@
           "lib/net451/CodeComb.AspNet.Extensions.dll": {}
         }
       },
-      "CodeComb.Testing/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Formatters.Xml": "6.0.0-rc1-final",
-          "Microsoft.AspNet.TestHost": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml",
-          "System.Xml.Linq"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        }
-      },
-      "CodeComb.Testing.Mvc/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "CodeComb.Testing": "2.0.0-rc1-final",
-          "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
-          "Moq": "4.2.1507.118"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2260,38 +2052,6 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.AspNet.Hosting/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Server.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.CommandLine": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        }
-      },
       "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2309,25 +2069,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Hosting.Server.Abstractions/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Features": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNet.Html.Abstractions/1.0.0-rc1-final": {
@@ -2651,26 +2392,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.Formatters.Xml/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime.Serialization",
-          "System.Xml"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2853,25 +2574,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Routing.dll": {}
-        }
-      },
-      "Microsoft.AspNet.TestHost/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Hosting": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -3111,42 +2813,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Extensions.Configuration.Binder.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.CommandLine/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
@@ -3791,47 +3457,6 @@
           "lib/net451/CodeComb.AspNet.Extensions.dll": {}
         }
       },
-      "CodeComb.Testing/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Formatters.Xml": "6.0.0-rc1-final",
-          "Microsoft.AspNet.TestHost": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml",
-          "System.Xml.Linq"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.dll": {}
-        }
-      },
-      "CodeComb.Testing.Mvc/2.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "CodeComb.Testing": "2.0.0-rc1-final",
-          "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
-          "Moq": "4.2.1507.118"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/CodeComb.Testing.Mvc.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4144,38 +3769,6 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.AspNet.Hosting/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Server.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.CommandLine": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Hosting.dll": {}
-        }
-      },
       "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4193,25 +3786,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Hosting.Server.Abstractions/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Features": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNet.Html.Abstractions/1.0.0-rc1-final": {
@@ -4535,26 +4109,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.Formatters.Xml/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime.Serialization",
-          "System.Xml"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4737,25 +4291,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Routing.dll": {}
-        }
-      },
-      "Microsoft.AspNet.TestHost/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Hosting": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.TestHost.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -4995,42 +4530,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Extensions.Configuration.Binder.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.CommandLine/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
@@ -5673,30 +5172,6 @@
         "lib/net451/CodeComb.AspNet.Extensions.xml"
       ]
     },
-    "CodeComb.Testing/2.0.0-rc1-final": {
-      "type": "package",
-      "sha512": "cZllUbqaQLfr6Mchpq6hIUSdjISxR9KXs3B2YaKEsmP2otTsNLe3ZfkvRHSYuf3DcD2BhvYYulLlV9je1LF15Q==",
-      "files": [
-        "CodeComb.Testing.2.0.0-rc1-final.nupkg",
-        "CodeComb.Testing.2.0.0-rc1-final.nupkg.sha512",
-        "CodeComb.Testing.nuspec",
-        "lib/dotnet5.4/CodeComb.Testing.dll",
-        "lib/dotnet5.4/CodeComb.Testing.xml",
-        "lib/net451/CodeComb.Testing.dll",
-        "lib/net451/CodeComb.Testing.xml"
-      ]
-    },
-    "CodeComb.Testing.Mvc/2.0.0-rc1-final": {
-      "type": "package",
-      "sha512": "cHJulG7Tb0Ht+H2totB8qMyOMoShr4P+m3U5syknk/4J859JrewMsqaGb5zHJBmxiJcZbmP26k6xgP25bYDZhA==",
-      "files": [
-        "CodeComb.Testing.Mvc.2.0.0-rc1-final.nupkg",
-        "CodeComb.Testing.Mvc.2.0.0-rc1-final.nupkg.sha512",
-        "CodeComb.Testing.Mvc.nuspec",
-        "lib/net451/CodeComb.Testing.Mvc.dll",
-        "lib/net451/CodeComb.Testing.Mvc.xml"
-      ]
-    },
     "EntityFramework.Core/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -5914,24 +5389,6 @@
         "Microsoft.AspNet.FileProviders.Physical.nuspec"
       ]
     },
-    "Microsoft.AspNet.Hosting/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "6ZVZK5Ql+z6UeVOBcXCRLahcAd/NKdMAK17JBZWGZqqmxKO0LtQMdb6drb9H4nBM3/a8vbhd+23wxzyIfoCLQQ==",
-      "files": [
-        "lib/dnx451/Microsoft.AspNet.Hosting.dll",
-        "lib/dnx451/Microsoft.AspNet.Hosting.xml",
-        "lib/dnxcore50/Microsoft.AspNet.Hosting.dll",
-        "lib/dnxcore50/Microsoft.AspNet.Hosting.xml",
-        "lib/dotnet5.4/Microsoft.AspNet.Hosting.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Hosting.xml",
-        "lib/net451/Microsoft.AspNet.Hosting.dll",
-        "lib/net451/Microsoft.AspNet.Hosting.xml",
-        "Microsoft.AspNet.Hosting.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Hosting.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Hosting.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -5944,20 +5401,6 @@
         "Microsoft.AspNet.Hosting.Abstractions.1.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.Hosting.Abstractions.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.Hosting.Abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Hosting.Server.Abstractions/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "55ovPKPLsLvXsZ2xxtCOkQXmLwrE5iMUXe1y3A3Y/DCcI2u9VBJezu1y2EPYmZCM+uP/Y/BaQm68AWg2r8RV5w==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Hosting.Server.Abstractions.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Hosting.Server.Abstractions.xml",
-        "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.dll",
-        "lib/net451/Microsoft.AspNet.Hosting.Server.Abstractions.xml",
-        "Microsoft.AspNet.Hosting.Server.Abstractions.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Hosting.Server.Abstractions.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Hosting.Server.Abstractions.nuspec"
       ]
     },
     "Microsoft.AspNet.Html.Abstractions/1.0.0-rc1-final": {
@@ -6184,20 +5627,6 @@
         "Microsoft.AspNet.Mvc.Formatters.Json.nuspec"
       ]
     },
-    "Microsoft.AspNet.Mvc.Formatters.Xml/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sSD3Ddv1K5EnN6oSlfUz/ugD+MYnzGVqMccP7ut8E60LhYtYb/7yysIsQkDMLup0x7eSQx0pcq2OzXL4FJgibQ==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Formatters.Xml.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Formatters.Xml.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.Formatters.Xml.xml",
-        "Microsoft.AspNet.Mvc.Formatters.Xml.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.Formatters.Xml.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.Formatters.Xml.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -6322,20 +5751,6 @@
         "Microsoft.AspNet.Routing.1.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.Routing.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.Routing.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.TestHost/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "IuOh9iR7jgpaQo6nsJodaav7EcFsgPbr35m9suApN60KSYvM9BBgictmGCrQlcrc3d08kE8Ol4x1oKE5q/zceg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.TestHost.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.TestHost.xml",
-        "lib/net451/Microsoft.AspNet.TestHost.dll",
-        "lib/net451/Microsoft.AspNet.TestHost.xml",
-        "Microsoft.AspNet.TestHost.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.TestHost.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.TestHost.nuspec"
       ]
     },
     "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -6545,38 +5960,6 @@
         "Microsoft.Extensions.Configuration.Binder.1.0.0-rc1-final.nupkg",
         "Microsoft.Extensions.Configuration.Binder.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.Extensions.Configuration.Binder.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.CommandLine/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "k+kXsefuLV5WkkG6X8GFn9zf9ZrMyC3dddgm6I6scpbanDyoKUYrRUP2VhW0ViO6TIva0soh6jJy3pFPCrNx9Q==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/dotnet5.4/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/net451/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/net451/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/netcore50/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/netcore50/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "Microsoft.Extensions.Configuration.CommandLine.1.0.0-rc1-final.nupkg",
-        "Microsoft.Extensions.Configuration.CommandLine.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.Extensions.Configuration.CommandLine.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "CaNirkiOycy0L6ptGxmpDkHZ2lzqcHKDbQJBfEhobnEt43pqKGKgAPC5dW3DfnsMpuK+inypm5iht9t6tq4vjg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/dotnet5.4/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "lib/netcore50/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/netcore50/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "Microsoft.Extensions.Configuration.EnvironmentVariables.1.0.0-rc1-final.nupkg",
-        "Microsoft.Extensions.Configuration.EnvironmentVariables.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.Extensions.Configuration.EnvironmentVariables.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
@@ -7788,7 +7171,6 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "CodeComb.Testing.Mvc >= 2.0.0-rc1-final",
       "Moq >= 4.2.1510.2205",
       "xunit >= 2.1.0",
       "xunit.runner.dnx >= 2.1.0-rc1-build204",
