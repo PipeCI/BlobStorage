@@ -15,10 +15,7 @@ namespace PipeCI.Blob
 
         public bool IsAbleToUpload()
         {
-            if (httpContext.User.Identities.Count() > 0)
-                return true;
-            else
-                return false;
+            return httpContext.User.Identities.Count() > 0;
         }
     }
 }

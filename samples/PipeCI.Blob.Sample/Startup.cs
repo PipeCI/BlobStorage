@@ -39,7 +39,8 @@ namespace PipeCI.Blob.Sample
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync(@"<html>
+                await context.Response.WriteAsync(
+@"<html>
     <body>
         <form action=""/blob/upload"" method=""post"" enctype=""multipart/form-data"">
             <input type=""file"" name=""file"" />
